@@ -39,7 +39,8 @@ html{
   /* acessiblity */
   
    *:focus{
-      background-color: #746e5588;
+      border: solid #4d5835 2px;
+      border-radius: 3px;
     }
   
   
@@ -251,6 +252,11 @@ h1{
   size-adjust: 150%;
 }
 
+.goals-project-name{
+  line-height: 190%;
+  font-size: 1.4vw;
+  margin-right: 100px;
+}
 
 @media screen and (min-width: 800px) {
   .page-img-gallery{

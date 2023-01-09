@@ -64,7 +64,7 @@ p{
     line-height: 170%;
     color: rgba(0, 0, 0, 0.555);
     list-style-type: square;
-    font-size: 110%;
+    font-size: 1.3vw;
 
 }
 
@@ -163,7 +163,7 @@ p{
  .gd-web-link a:hover{
    size-adjust: 150%;
  }
-
+ 
 
  @media  screen and (min-width= 700px) {
     .employer-title{
@@ -173,12 +173,9 @@ p{
     
     .role-title{
         color: #849461;
-        font-size: 170%;
+        font-size: 200%;
     }
     
-    p{
-        font-size: 130%;
-        line-height: 200%;
-    }
+
     
  }

@@ -28,3 +28,22 @@
  .gd-web-link a:hover{
    size-adjust: 150%;
  }
+
+ @media  screen and (min-width= 700px) {
+  .employer-title{
+      color: #849461;
+      font-size: 400%;
+  }
+  
+  .role-title{
+      color: #849461;
+      font-size: 200%;
+  }
+  
+  .goals-project-name{
+      font-size: 500%;
+      line-height: 200%;
+  }
+
+  
+}
