@@ -1,0 +1,275 @@
+@import url("https://fonts.googleapis.com/css?family=Cormorant Garamond — Regular");
+/* skip a */
+html{
+    overflow-x: hidden;
+    background-color: #849461;
+  }
+  body{
+    font-family: "Cormorant Garamond — Regular";
+    display:flex; 
+    flex-direction:column; 
+  }
+
+  #page-container {
+    position: relative;
+    min-height: 100vh;
+  }
+  
+  #main {
+    padding-bottom: 2.5rem;
+  }
+
+    .skip a{
+      position: absolute;
+      top: -100px;
+      padding: 2%;
+      background-color: #849461;
+      border: solid black 4px;
+      color: #E8E3CE;
+      z-index: 2;
+      border-radius: 5px;
+    }
+  
+    .skip a:focus{
+      position: absolute;
+      top:20px;
+    }
+  
+  
+  /* acessiblity */
+  
+   *:focus{
+      background-color: #746e5588;
+    }
+  
+  
+  
+  /* header and nav */
+  body{
+    background-image: url(../images/background-home.png);
+    background-repeat: repeat;
+  }
+  
+  nav{
+    justify-content: center;
+    align-self: center;
+    padding-top: 20px;
+    margin-bottom: 30px;
+    margin: auto;
+    max-width: 30%;
+    display: flex;
+    flex-direction: row-reverse;
+    column-gap: 30px;
+    align-items: center;
+
+  }
+  
+
+  
+  nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    text-align: center;
+    align-items: center;
+    white-space: nowrap;
+    column-gap: 30px;
+  }
+  
+  #logo{
+    width: 50px;
+  }
+  
+
+  .nav_item a:link{
+    text-decoration: none;
+    color: black;
+    padding: 5% 15%;
+  }
+  
+  .nav_item a:visited{
+  color: black;
+  }
+  
+  .nav_item a:hover {
+    background-color: rgba(0, 0, 0, 0.253);
+    border-radius: 5px;
+    }
+  
+    .nav_item .current { 
+      border-radius: 5px;
+      border-bottom: solid rgba(0, 0, 0, 0.486) 3px;
+      color: black;
+      text-decoration: underline black;
+    }
+    .nav_item a:active {
+      background-color: #E8E3CE;
+      border-radius: 5px;
+      border: solid rgba(0, 0, 0, 0.253) 2px;
+    }
+
+  .header-text{
+    align-self: center;
+    padding: 20% 0%;
+    line-height: 30px;
+
+    }
+
+    .header-title{
+      display: block;
+      padding: 15px;
+      text-align: left;
+      font-size: 400%;
+      white-space: normal;
+      line-height: 125%;
+      width: 90%;
+      padding-left: 30px;
+      padding-top: 40px;
+      color: white;
+      opacity: 90%;
+      max-width: 80%;
+    }
+
+
+  .header-blurb{
+    color: white;
+    opacity: 60%;
+    font-size: 130%;
+    padding: 30px;
+    padding-top: 70px;
+    padding-bottom: 80px;
+  }
+ .page-img-gallery{
+  display: grid;
+  grid-template-columns: 1;
+ } 
+
+ .page-img{
+  max-height: 700px;
+  display: flex;
+  flex-direction:column;
+  object-fit: cover;
+  justify-self: center;
+  justify-items: center;
+ } 
+
+ .page-img img{
+  max-height: 400px;
+ } 
+
+ .page-img h2{
+   justify-self: center;
+   text-align: center;
+   padding-bottom: 50px;
+ }
+ .page-img h2{
+  font-size: 120%;
+ } 
+
+
+ #work-logo{
+  background-color:#F8F8E7 ;
+ }
+
+ #code-logo{
+   background-color: #F2EDD8;
+   
+}
+#me-logo{
+  background-color: #F4EDCB;
+}
+
+
+footer{
+  background-color: #F4EDCB;;
+  padding: 30px;
+  padding-top: 40px;
+}
+
+.skills{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+  margin: 10px;
+}
+.skills img{
+  max-height: 90px;
+  padding: 20px;
+}
+
+.author, .contact-info{
+  padding: 20px;
+  font-size: 100%;
+  width: 420px;
+  margin-top: 40px;
+  margin-bottom: 10px;
+  border-bottom: solid 2px #364a27b4;
+  margin: auto;
+  
+}
+
+.copywrite{
+  display: block;
+  padding: 30px;
+  font-size: 100%;
+  color: #364a27d5;
+  text-align: center;
+  padding-top: 50px;
+}
+
+h1{
+  font-weight: 10px;
+  font-size: 150%;
+  line-height: 30px;
+}
+
+.gallery-link{
+   width:100%;
+   height: 100%;
+  z-index: 1;
+  color: black;
+  text-decoration: underline rgba(0, 0, 0, 0.226);
+  display: inline-block;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+
+.gallery-link a:visited{
+  text-decoration: none;
+  color: black;}
+
+.gallery-link a:link{
+  color: black;
+  text-decoration: none;
+}
+
+.gallery-link a:hover{
+  size-adjust: 150%;
+}
+
+
+@media screen and (min-width: 800px) {
+  .page-img-gallery{
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 90px;
+    margin-right: 40px;
+    margin-left: 40px;
+   } 
+
+   .header-text{
+     font-size: 130%;
+     margin: 0px 100px ;
+     padding-top: 110px;
+     padding-bottom: 110px;
+   }
+   .header-blurb{
+     padding-right: 100px;
+     line-height: 150%;
+
+   }
+
+}

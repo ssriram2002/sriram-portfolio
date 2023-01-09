@@ -1,0 +1,73 @@
+.swetha-img{
+    min-width: 400px;
+    width: 70%;
+    height: 100%;
+    padding: 40px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  align-self: center;
+  justify-self:center ;
+}
+
+
+.skills-box{
+    display: grid;
+    grid: 1fr 1fr;
+    justify-items: center;
+
+    background:  #f4edcbaf;
+    padding: 50px;
+    border-radius: 10px;
+    margin: 50px;
+
+}
+
+.skills-about-me{
+    grid-column: 1;
+    border-right: black 2px;
+}
+
+.education{
+    grid-column: 2;
+    
+}
+
+.skills-box ul{
+    line-height: 200%;
+    list-style-type: square;
+
+}
+
+.skill-title{
+text-decoration: underline rgba(0, 0, 0, 0.582);
+font-size: 120%;
+padding-bottom: 20px;
+
+}
+
+
+.resume{
+    display: block;
+    justify-self: center;
+    margin: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+
+@media screen and (min-width: 1100px) {
+    .header-info-about{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 10px;
+        padding: 10px;
+    }
+    .swetha-img{
+        grid-column: 2;
+        width: 150%;
+        height: fit-content;
+
+    }
+    
+}
